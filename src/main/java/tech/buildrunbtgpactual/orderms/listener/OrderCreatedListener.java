@@ -6,6 +6,7 @@ import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.messaging.Message;
 import org.springframework.stereotype.Component;
 
+import tech.buildrunbtgpactual.orderms.listener.dto.OrderCreatedEvent;
 import tech.buildrunbtgpactual.orderms.service.OrderService;
 
 import static tech.buildrunbtgpactual.orderms.config.RabbitMqConfig.ORDER_CREATED_QUEUE;
